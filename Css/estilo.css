@@ -47,8 +47,7 @@ header{
     font: 3em sans-serif;
     padding-left: 20px;
     padding-top: -35px;
-    
-    border:2px solid rgb(195, 30, 137);
+  
 }
 
 .contas{
@@ -91,12 +90,42 @@ header{
 /** Parte 1**/
 #Corpo1{
     display: grid;
-    background-color: #707070;
-    border:2px solid white;
     height: 400px;
+}
 
+.sobre{
+    position:absolute;
+    top: 300px;
+    right: 100px;
+    
+    color:aliceblue;
+    
+}
+
+article{
+
+    position:absolute;
+    top: 400px;
+    right: 100px;
+    max-width: 350px;
+    text-align: justify;
+}
+
+.foto{
+    
+    background-image: url(../Imagens/pexels-thirdman-5583250.jpg);
+    margin: 80px;
+    width: 200px;
+    height: 120px;
+    background-size:200px 120px;
+    background-color:#ae5353;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(20, 20, 20);
 
 }
+
+
+
 #Corpo2{
 
     background-color: #ae5353;
