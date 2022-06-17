@@ -94,7 +94,7 @@ header{
 #Corpo1{
     clear: both;
     display: grid;
-    height: 400px;
+    height: 450px;
     
 }
 
@@ -113,7 +113,7 @@ header{
     
     position: absolute;
     top:650px;
-    left:500px;    
+    left:450px;    
     color:aliceblue;
     white-space: nowrap;
 }
