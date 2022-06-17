@@ -1,4 +1,7 @@
 body{
+    width: 1200px;
+    display: grid;
+
     padding:0px;
     margin:0px;
     background-color: #272727;
@@ -89,35 +92,53 @@ header{
 
 /** Parte 1**/
 #Corpo1{
+    clear: both;
     display: grid;
     height: 400px;
+    
 }
 
 .sobre{
-    position:absolute;
-    top: 300px;
-    right: 100px;
+ 
     
+    position: absolute;
+    top:300px;
+    left:800px;    
     color:aliceblue;
+    white-space: nowrap;
     
 }
+.sobre1{
+ 
+    
+    position: absolute;
+    top:650px;
+    left:500px;    
+    color:aliceblue;
+    white-space: nowrap;
+}
+
+
 
 article{
 
-    position:absolute;
-    top: 400px;
-    right: 100px;
+    position: absolute;
+    top:400px;
+    left:800px;    
+    color:aliceblue;
     max-width: 350px;
     text-align: justify;
 }
 
 .foto{
     
+    position: absolute;
+    top:320px;
     background-image: url(../Imagens/pexels-thirdman-5583250.jpg);
-    margin: 80px;
-    width: 200px;
-    height: 120px;
-    background-size:200px 120px;
+    margin: 50px;
+    width: 400px;
+    height: 240px;
+    background-size:400px 240px;
     background-color:#ae5353;
     border-radius: 5px;
     box-shadow: 5px 5px 5px rgb(20, 20, 20);
