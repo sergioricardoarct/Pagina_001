@@ -1,5 +1,5 @@
 body{
-    width: 1200px;
+    width:1200px;
     display: grid;
 
     padding:0px;
@@ -94,7 +94,7 @@ header{
 #Corpo1{
     clear: both;
     display: grid;
-    height: 450px;
+    height: 400px;
     
 }
 
@@ -145,20 +145,15 @@ article{
 
 }
 
-
-
-#Corpo2{
-
-    background-color: #ae5353;
-    border:2px solid rgb(255, 255, 255);
-    height: 250px;
-}
-
 footer{
-
-    background-color: #cfd22a;
-    border:2px solid rgb(195, 30, 137);
+    position:relative;
+    top:440px;
     height: 50px;
+    background-color: #1d1d19;
+    Index:4;
+    text-align: center;
+    color:aliceblue;
+    line-height: 15px;
 }
 
 
